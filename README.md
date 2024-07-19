@@ -50,13 +50,13 @@ class PhotoModal
 }
 
 ```
-<P>
+<div align="center">
   <img src="https://github.com/harshdusane2103/CH-8_JSON_Parsing/blob/master/json.png" width=21%,heigth=35%>
 
-</P>
-<p>
+</div>
+<div align = "center">
   <video src="https://github.com/user-attachments/assets/63629090-b671-4409-9944-3d5293941a78">
-</p>
+</div>
 <div align = "center">
 <a  href="https://github.com/harshdusane2103/CH-8_JSON_Parsing/tree/master/lib/8.1_JSON%20parsing">👉 Go To Dart File 👈</a>
 </div>
@@ -164,13 +164,12 @@ class Company {
 
 
 ```
-<P>
+<div align = "center">
  <img src="https://github.com/harshdusane2103/CH-8_JSON_Parsing/blob/master/user.png" width=21%,heigth=35%,align="center">
-
-</P>
-<p>
+</div>
+<div align = "center">
   <video src="https://github.com/user-attachments/assets/c26f9b93-e467-48c4-9e12-6103b56cbd07">
-</p>
+</div>
 <div align = "center">
 <a  href="https://github.com/harshdusane2103/CH-8_JSON_Parsing/tree/master/lib/User_JSON">👉 Go To Dart File 👈</a>
 </div>
