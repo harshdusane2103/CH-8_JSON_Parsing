@@ -26,9 +26,14 @@
                       fromlist();
                     }
       }
-      
-    ```
-# Modal Class Example
+
+
+
+```
+
+# Modal Class Example :
+
+
 
 ```bash
  
