@@ -1,5 +1,7 @@
 import 'package:adv_ch_json_parsing/8.1_JSON%20parsing/Provider/provider.dart';
-import 'package:adv_ch_json_parsing/8.1_JSON%20parsing/View/Home.dart';
+
+import 'package:adv_ch_json_parsing/User_JSON/Provider/userprovider.dart';
+import 'package:adv_ch_json_parsing/User_JSON/view/HomeUser.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -15,14 +17,12 @@ class MyApp extends StatelessWidget {
     return 
       MultiProvider(
         providers: [
-          ChangeNotifierProvider(create: (context) => JSONProvider(),)
+          ChangeNotifierProvider(create: (context) => JSONProvider(),),
+          ChangeNotifierProvider(create: (context) => Userprovider(),),
         ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        routes: {
-          '/':(context)=>Homepage(),
-      
-        },
+        home: HomeScreen(),
       ),
     );
   }
