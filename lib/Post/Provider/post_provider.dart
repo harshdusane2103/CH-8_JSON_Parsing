@@ -8,7 +8,7 @@ class PostProvider extends ChangeNotifier
 {
   late PostModal postModal;
 
-  initModal()
+  Future<void> initModal()
   async {
     String json = await rootBundle.loadString('asstes/JSON/post.json');
     final response = jsonDecode(json);
