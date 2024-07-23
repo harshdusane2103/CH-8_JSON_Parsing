@@ -282,8 +282,7 @@ class Reaction {
  <img src="https://github.com/harshdusane2103/CH-8_JSON_Parsing/blob/master/post.png" width=21%,heigth=35%,align="center">
 </div>
 <div align = "center">
-  <video src="
-https://github.com/user-attachments/assets/fe5215d6-28c7-4d0d-9607-dc4ae53b9d04">
+  <video src="https://github.com/user-attachments/assets/fe5215d6-28c7-4d0d-9607-dc4ae53b9d04">
 </div>
 <div align = "center">
 <a  href="https://github.com/harshdusane2103/CH-8_JSON_Parsing/tree/master/lib/Post">👉 Go To Dart File 👈</a>
