@@ -23,9 +23,3 @@ class PostProvider extends ChangeNotifier
 }
 
 
-//
-//   PostProvider()
-//   {
-//     jsonParsing();
-//   }
-// }
