@@ -12,7 +12,7 @@ class PostProvider extends ChangeNotifier
   async {
     String json = await rootBundle.loadString('asstes/JSON/post.json');
     final response = jsonDecode(json);
-    postModal = PostModal.fromjson(response);
+    postModal = PostModal.fromJson(response);
     notifyListeners();
   }
 
@@ -21,3 +21,11 @@ class PostProvider extends ChangeNotifier
     initModal();
   }
 }
+
+
+//
+//   PostProvider()
+//   {
+//     jsonParsing();
+//   }
+// }
